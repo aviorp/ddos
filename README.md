@@ -1,7 +1,8 @@
 <p align="center">
   <img src="https://i.makeagif.com/media/12-24-2015/f63iKm.gif" alt="Christmas GIF"/>
 </p>
-# PapitoDDoS
+
+# DDoS
 
 A simple HTTP stress testing tool written in Go. This tool is designed for educational purposes and testing the resilience of your own web applications.
 
