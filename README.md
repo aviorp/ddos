@@ -12,7 +12,7 @@ A simple HTTP stress testing tool written in Go. This tool is designed for educa
 
 - Concurrent request handling using Go routines
 - Configurable number of workers
-- Support for both GET and POST requests
+- Support for any HTTP method
 - Custom headers configuration
 - Form data submission with random data generation
 - Real-time request counter and status monitoring
@@ -30,7 +30,6 @@ go mod download
 ### Basic GET Request
 
 ```go
-go
 config := &ddos.RequestConfig{
 URL: "https://your-target-url.com",
 Method: "GET",
@@ -95,6 +94,6 @@ The tool includes utility functions for generating random data:
 
 This tool is provided for educational and testing purposes only. The authors are not responsible for any misuse or damage caused by this program. Users must ensure they have proper authorization before testing any systems.
 
-## License
+## Contributing
 
-MIT License - See LICENSE file for details
+Shoutout to [@lacherogwu](https://github.com/lacherogwu) for the initial implementation.
