@@ -20,8 +20,8 @@ A simple HTTP stress testing tool written in Go. This tool is designed for educa
 ## Installation
 
 ```bash
-git clone https://github.com/aviorp/papitoddos
-cd papitoddos
+git clone https://github.com/aviorp/ddos
+cd ddos
 go mod download
 ```
 
